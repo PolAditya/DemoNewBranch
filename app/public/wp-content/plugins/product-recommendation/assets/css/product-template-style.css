@@ -1,0 +1,697 @@
+
+
+/* styling for recommended products */
+.product_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.product_wrapper_heading{
+    text-align: center;
+    font-size: 22px !important;
+    color: #242424 !important;
+    font-weight: bold !important;
+    text-wrap: wrap !important;
+    max-width: 40%;
+    margin: 0px;
+}
+
+.product_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+.woocommerce_product{
+    max-width: 250px; 
+    background-color: white;
+    border-radius: 10px; 
+    margin: 20px;
+    border: 1px solid #A1A1A1;
+}
+
+.product_image img{
+    border-radius: 10px 10px 0px 0px !important;     
+}
+
+/* .product_category{
+    margin-bottom: 10px;
+} */
+
+.product_details{
+    padding: 10px;
+}
+
+.product_name{
+    font-weight: 700; 
+    font-size: 16px; 
+    height: 30px; 
+    overflow-y: hidden;
+    color: #1b1f22;
+}
+
+.product_content{
+    display: flex;
+    gap: 5px; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    /* align-items: start; */
+    font-weight: 700; 
+    font-size: 15px; 
+}
+
+/* .product_price{
+    font-weight: 500; 
+    font-size: 18px;
+} */
+
+.product_rating_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.product_rating{
+    color: #FFCF3D;
+}
+
+.rating_count{
+    color: #4D5053;
+}
+
+.regular_price{
+    text-decoration: line-through;
+    color: #EB6868;
+    padding: 0px 10px 0px 0px;
+    font-weight: 400;
+}
+
+.regular_price_alone{
+    color: #EB6868;
+    padding: 0px 10px 0px 0px;
+    font-weight: 400;
+}
+
+.sale_price{
+    color: #EB6868;
+    font-weight: 400;
+}
+
+.btn_submit_to_cart {
+    background-color:  #FFDA6A;
+    width: 100% !important;
+    color: #242424;
+    font-weight: normal;
+}
+
+.btn_submit_to_cart:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+/* #NP_products.wp_product_wrapper{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+
+}  */
+
+
+.button.product_type_simple{
+    background-color: #FFFFFF !important; /* Change background color */
+    color: #000000 !important; /* Change text color */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+/* styling for order-summary.php */
+
+.order_summary_wrapper{
+    margin-top: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #111827;
+}
+
+.order_summary_heading{
+    margin-bottom: 5px !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.order_summary_container{
+    border: 1px solid #D1D5DB;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.order_summary_container ul{
+    list-style: none;
+}
+
+.order_summary_container ul li{
+    line-height: 18px;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+/* styling for multi-step-form */
+
+#multi-step-form{
+    position: relative;
+    background-color: #FFFAF0;
+    box-shadow: 0px 6px 16px 0px #E7E7E7;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+#multi-step-form .fw-wizard-step-header-container{
+    margin-bottom: 0px !important;
+}
+
+
+#multi-step-form .fw-wizard-step-header h2{
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 0px !important;
+    
+}
+
+#multi-step-form .fw-wizard-step-header p{
+    display: none;
+}
+
+#multi-step-form .fw-step-part{
+    padding-top: 20px !important;
+    background: none !important;
+    border: none !important;
+}
+
+#multi-step-form h2.fw-step-part-title{
+    display: none;
+}
+
+
+#multi-step-form .fw-step-part-body{
+    margin-bottom: 20px !important;
+}
+
+
+#multi-step-form .fw-step-block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 25px !important;
+}
+
+#multi-step-form .fw-step-block h3{
+    /* font-size: 30px !important; */
+    font-size: 20px !important; 
+    font-weight: bold !important;   
+    margin-bottom: 20px !important;
+}
+
+
+.fw-choice{
+    padding-left: 40px;
+}
+
+
+.fw-choice label{
+    font-size: 18px !important;
+    color: #707070;
+}
+
+#multi-step-form div[data-required="true"] h3:after{
+    display: none;
+}
+
+#multi-step-form [data-type=fw-radio] label:before{
+    width: 18px !important;
+    height: 18px !important;
+    left: 5px !important;
+    top: 5px !important;
+    border-color: #CEA761 !important;
+}
+
+#multi-step-form .fw-radio-row input[type=radio]:checked+label:before {
+    line-height: 5.4px !important;
+    color: #CEA761 !important;
+    font-size: 55px !important;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+#multi-step-form .fw-radio-row input[type=radio]:checked+label{
+    font-weight: 500 !important;
+}
+
+
+#multi-step-form [data-type=fw-checkbox] label:before{
+    width: 18px !important;
+    height: 18px !important;
+    left: 5px !important;
+    top: 5px !important;
+    color: #CEA761 !important;
+}
+
+#multi-step-form [data-type=fw-checkbox] input[type=checkbox]:checked+label:before{
+    line-height: 15px !important;
+    color: #CEA761 !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#multi-step-form [data-type=fw-checkbox] input[type=checkbox]:checked+label {
+    font-weight: 500 !important;
+}
+
+
+#multi-step-form .fw-summary-container{
+    display: none;
+}
+
+#multi-step-form .fw-wizard-buttons{
+    position: relative;
+}
+
+.fw-button-previous{
+    position: absolute;
+    background-color: #FFCF40 !important;
+    color: #242424 !important;
+    top: -57px;
+    left: 0px;
+    padding: 15px 40px 31px 40px !important;
+    height: 0px !important;
+    line-height: normal !important;
+    letter-spacing: 0px !important;
+    font-weight: 500 !important;
+}
+
+.fw-button-next{
+    position: absolute;
+    background-color: #FFCF40 !important;
+    color: #242424 !important;
+    top: -57px;
+    right: 0px;
+    padding: 15px 40px 31px 40px !important;
+    height: 0px !important;
+    line-height: normal !important;
+    letter-spacing: 0px !important;
+    font-weight: 500 !important;
+
+}
+
+
+#multi-step-form button.fw-btn-submit{
+    position: absolute;
+    bottom: -29px;
+    right: 0px;
+    background-color: #FFCF40 !important;
+    width: fit-content !important;
+    padding: 18px 40px !important;
+    color: #242424 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#multi-step-form button.fw-btn-submit:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+/* styling hair care form specifically */
+div[data-wizardid="7"]{
+    height: 500px;
+    padding-bottom: 80px !important;
+    padding-top: 20px !important;
+}
+
+div[data-wizardid="7"]#multi-step-form .fw-step-part-body{
+    margin-bottom: 50px !important;
+}
+
+div[data-wizardid="7"]#multi-step-form .fw-wizard-step-container h3{
+    color: #707070;
+    text-align: center;
+    font-size: 24px !important;
+}
+
+
+div[data-wizardid="7"]#multi-step-form button.fw-btn-submit{
+    margin-right: 100px;
+}
+
+
+
+div[data-wizardid="7"] .fw-step-block{
+    position: relative;
+    top: 1rem;
+    left: 0%;
+   
+}
+
+div[data-wizardid="7"] .fw-choice {
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+
+div[data-wizardid="7"] .fw-choice label{
+    width: 150px;
+    font-size: 14px !important;  
+    color: #1b1f22;
+}
+
+
+.hair_care_image{
+    width: 150px !important;
+    
+}
+
+div[data-wizardid="7"] .fw-choice:nth-child(1){
+    position: absolute !important;
+    left: 0% !important;  
+}
+
+div[data-wizardid="7"] .fw-choice:nth-child(2){
+    position: absolute !important;
+    left: 20% !important;
+    top: 23%;
+}
+
+div[data-wizardid="7"] .fw-choice:nth-child(3){
+    position: absolute !important;
+    left: 40%; 
+    top: 23%; 
+}
+
+div[data-wizardid="7"] .fw-choice:nth-child(4){
+    position: absolute !important;
+    left: 60%; 
+    top: 23%;
+}
+
+
+div[data-wizardid="7"] .fw-btn-submit{
+    bottom: -10px !important;
+    
+}
+
+
+
+
+
+
+/* styling for text fields in QNA forms */
+.QNA_text_fields{
+    top: -15px;
+    padding-left: 20px !important;
+    margin-left: 49px !important;
+    border-color: #707070 !important; 
+    max-width: 25% !important;
+}
+
+
+
+ /* styling Performance care form specifically */
+ div[data-wizardid="4"]{
+    padding-bottom: 80px !important;
+}
+
+div[data-wizardid="4"] .fw-step-part-body{
+    margin-bottom: 50px !important;
+}
+
+div[data-wizardid="4"] button.fw-btn-submit{
+    margin-right: 100px;
+}
+
+div[data-wizardid="5"]#multi-step-form .fw-wizard-step-header h2 {
+    text-align: start !important;
+    font-size: 22px !important;
+}
+
+div[data-wizardid="5"]#multi-step-form div[data-stepid="1"] h2{
+    text-align: start !important;
+    font-size: 20px !important;
+}
+
+
+
+ /* styling Skin care form specifically */
+ div[data-wizardid="10"]{
+    padding-bottom: 80px !important;
+}
+
+div[data-wizardid="10"] .fw-step-part-body{
+    margin-bottom: 50px !important;
+}
+
+div[data-wizardid="10"] button.fw-btn-submit{
+    margin-right: 100px;
+}
+
+
+
+@media screen and (max-width: 929px){
+    .QNA_text_fields{
+        max-width: 40% !important;
+    }
+
+    div[data-wizardid="7"]{
+        height: 700px;
+    }
+    
+    div[data-wizardid="7"] .fw-step-block{
+        position: relative;
+        top: 1rem;
+        left: 0%;
+       
+    }
+    
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(1){
+        position: absolute !important;
+        left: 0% !important;  
+        
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(2){
+        position: absolute !important;
+        left: 50% !important;
+        top: 25%;
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(3){
+        position: absolute !important;
+        left: 0%; 
+        top: 100%; 
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(4){
+        position: absolute !important;
+        left: 50%; 
+        top: 100%;
+    }
+    
+    
+    div[data-wizardid="7"]#multi-step-form .fw-btn-submit{
+        bottom: -180px !important;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .product_wrapper_heading{
+        max-width: 90%;
+    }
+    
+    
+    .QNA_text_fields{
+        max-width: 50% !important;
+        
+    }
+
+
+    #multi-step-form button.fw-btn-submit{
+        margin-right: 100px;
+        position: relative !important;
+        top: -27px;
+        width: 100% !important;
+    }
+
+    .fw-button-previous{
+        width: 100%;
+    }
+
+    .fw-button-next{
+        width: 100%;
+    }
+
+
+
+    div[data-wizardid="7"] .fw-choice {
+        
+        display: flex !important;
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-left: 10% !important;
+        margin-top: 30px;
+    }
+
+    div[data-wizardid="7"] .fw-choice:nth-child(1){
+        position: absolute !important;
+        left: 0% !important;
+
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(2){
+        position: absolute !important;
+        left: 50% !important;
+        top: 23% !important;
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(3){
+        position: absolute !important;
+        left: 0%; 
+        top: 100% !important; 
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(4){
+        position: absolute !important;
+        left: 50%; 
+        top: 100% !important;
+    }
+
+    div[data-wizardid="7"]#multi-step-form .fw-btn-submit{
+        margin-top: 15rem;  
+        width: 100% !important;
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width: 545px){
+
+    .product_wrapper_heading{
+        max-width: 90%;
+        font-size: 19px !important;
+    }
+
+    .product_content{
+        font-size: 13px;
+    }
+    
+    .product_name{
+        font-size: 14px;
+    }
+
+    .btn_submit_to_cart{
+        font-size: 13px;
+    }
+
+    #multi-step-form{
+        padding: 50px 20px 50px 20px !important;
+    }
+    #multi-step-form .fw-step-block h3{
+        font-size: 18px !important;
+    }
+
+    .fw-choice{
+        padding-left: 0px;
+    }
+
+    .QNA_text_fields{
+        max-width: 80% !important;
+        margin-left: 10px !important;
+        
+    }
+
+    div[data-wizardid="7"]{
+        height: 1100px;
+    }
+
+    div[data-wizardid="7"] .fw-choice {
+        
+        display: flex !important;
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-left: 10% !important;
+        margin-top: 30px;
+    }
+
+    div[data-wizardid="7"] .fw-choice:nth-child(1){
+        position: absolute !important;
+        left: 0% !important;
+
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(2){
+        position: absolute !important;
+        left: 0% !important;
+        top: 90% !important;
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(3){
+        position: absolute !important;
+        left: 0%; 
+        top: 150% !important; 
+    }
+    
+    div[data-wizardid="7"] .fw-choice:nth-child(4){
+        position: absolute !important;
+        left: 0%; 
+        top: 220% !important;
+    }
+
+    div[data-wizardid="7"]#multi-step-form .fw-btn-submit{
+        margin-top: 38rem;  
+        width: 100% !important;
+        
+    }
+
+    
+
+}
